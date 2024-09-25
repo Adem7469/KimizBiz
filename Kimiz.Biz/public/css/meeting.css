@@ -1,0 +1,222 @@
+body {
+    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+}
+
+.tab-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    height: 100px;
+}
+
+.tab-bar .header-container .header span {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.btn-darkblue {
+    background-color: #2f6faf;
+    border-color: #2f6faf;
+    color: white;
+    border-radius: 50%;
+}
+
+.offcanvas-body ul {
+    list-style: none;
+    padding: 0;
+}
+
+.selbtn {
+    background: linear-gradient(to right, #3f7cb8, #3f7fbe);
+    color: white;
+}
+
+.offcanvas-body ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: white;
+    color: grey;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.offcanvas-body ul li a:hover {
+    background-color: #004080;
+    color: white;
+}
+
+.offcanvas-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offcanvas-header span {
+    display: flex;
+    align-items: center;
+}
+
+.offcanvas-header img {
+    margin-right: 10px; 
+    width: 100px;
+    height: 50px;
+}
+
+.options {
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.header-container {
+    background: linear-gradient(to right, #003366, #004080);
+    color: white;
+    border-radius: 20px 20px 0 0;
+    height: 250px;
+}
+
+.panel {
+    background: white;
+    border-radius: 10px 10px 0 0;
+    margin-inline: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: -10rem;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-orange {
+    background-color: orange;
+    border-color: orange;
+    color: white;
+}
+
+.meet {
+    padding-top: 20px;
+    background: white;
+    border-radius: 10px 10px 0 0;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.meet .container {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0; 
+    max-width: 100%; 
+}
+
+.meet .kisi h3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 10;
+}
+
+.meet .kisi button {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.meet .kisi:first-child {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.costumer .duzenle {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    border-color: orange;
+}
+
+.export-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.export-btns button {
+    width: 50%;
+    height: 40px;
+}
+
+.meet .islem {
+    display: flex;
+}
+
+.meet .islem button {
+    width: 80px;
+    height: 40px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.btn-close-right {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.btn-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.meet .container .firstlabel::after {
+    content: "";
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 15px;
+    background-color: black;
+    height: 1px;
+    width: 100px;
+}
+
+.meet .container .timelabel {
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+}
+
+.meet li {
+    border: 1px solid #ddd;
+    border-radius: 20px; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    width: calc(100% - 20px); 
+    margin-left: 10px; 
+    margin-right: 10px;
+    box-sizing: border-box;
+}
